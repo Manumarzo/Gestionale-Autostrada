@@ -1,0 +1,74 @@
+[
+  {
+    "tipo_casello": "entrata",
+    "nome": "MI_OVEST",
+    "id": "MI_OVEST_INGR_MAN_01",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "entrata",
+    "nome": "MI_OVEST",
+    "id": "MI_OVEST_INGR_AUTO_01",
+    "tipo_ingresso": "automatico"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "MI_OVEST",
+    "id": "MI_OVEST_USC_MAN_01",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "MI_OVEST",
+    "id": "MI_OVEST_USC_AUTO_01",
+    "tipo_ingresso": "automatico"
+  },
+  {
+    "tipo_casello": "entrata",
+    "nome": "MI_EST",
+    "id": "MI_EST_INGR_MAN_02",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "entrata",
+    "nome": "MI_EST",
+    "id": "MI_EST_INGR_AUTO_02",
+    "tipo_ingresso": "automatico"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "MI_EST",
+    "id": "MI_EST_USC_MAN_02",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "MI_EST",
+    "id": "MI_EST_USC_AUTO_02",
+    "tipo_ingresso": "automatico"
+  },
+  {
+    "tipo_casello": "entrata",
+    "nome": "NA_NORD",
+    "id": "NA_NORD_INGR_MAN_03",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "entrata",
+    "nome": "NA_NORD",
+    "id": "NA_NORD_INGR_AUTO_03",
+    "tipo_ingresso": "automatico"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "NA_NORD",
+    "id": "NA_NORD_USC_MAN_03",
+    "tipo_ingresso": "manuale"
+  },
+  {
+    "tipo_casello": "uscita",
+    "nome": "NA_NORD",
+    "id": "NA_NORD_USC_AUTO_03",
+    "tipo_ingresso": "automatico"
+  }
+]

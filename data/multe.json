@@ -1,0 +1,37 @@
+[
+  {
+    "id": "b5090d4e-39ca-4e02-8c74-ceca9aa86e27",
+    "idViaggio": "73dfcf8d-0216-44ad-9d59-ddc0256b44f2",
+    "motivazione": "Guida in stato di ebbrezza",
+    "importo": 200.0,
+    "scadenza": "2025-09-09"
+  },
+  {
+    "id": "1695d8a3-4c81-437a-ae20-89254666836e",
+    "idViaggio": "12cf0198-c3e3-48ee-8c1d-f6af9c7a4e9f",
+    "motivazione": "Guida in stato di ebbrezza",
+    "importo": 200.0,
+    "scadenza": "2025-09-09"
+  },
+  {
+    "id": "2cd6b5d7-0cfb-4dbd-9906-538224d07983",
+    "idViaggio": "4bb5c5d0-a883-4a70-bc9f-623d53d4f088",
+    "motivazione": "Velocità elevata",
+    "importo": 150.3,
+    "scadenza": "2025-09-09"
+  },
+  {
+    "id": "e80c0856-5f7c-475c-a455-001b731101c7",
+    "idViaggio": "dc1a25d5-bd0d-45c3-9ee3-609e6665079f",
+    "motivazione": "Guida in stato di ebbrezza",
+    "importo": 200.0,
+    "scadenza": "2025-09-09"
+  },
+  {
+    "id": "bc9356ab-1bc9-4b42-bc69-3693e63d0159",
+    "idViaggio": "c577d402-2c16-449c-94eb-7d86930726d5",
+    "motivazione": "Guida in stato di ebbrezza",
+    "importo": 200.0,
+    "scadenza": "2025-09-09"
+  }
+]

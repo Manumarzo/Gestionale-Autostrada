@@ -1,0 +1,24 @@
+{
+  "caselli" : [ {
+    "nome" : "MI_OVEST",
+    "regione" : "Lombardia",
+    "latitudine" : 45.478,
+    "longitudine" : 9.104,
+    "dispositivoId" : null,
+    "telecamera" : null
+  }, {
+    "nome" : "MI_EST",
+    "regione" : "Lombardia",
+    "latitudine" : 45.464,
+    "longitudine" : 9.228,
+    "dispositivoId" : null,
+    "telecamera" : null
+  }, {
+    "nome" : "NA_NORD",
+    "regione" : "Campania",
+    "latitudine" : 40.889704,
+    "longitudine" : 14.314842,
+    "dispositivoId" : null,
+    "telecamera" : null
+  } ]
+}

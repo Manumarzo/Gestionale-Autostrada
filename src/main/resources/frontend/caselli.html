@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestione Caselli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Portale Autostrade</a>
+      <a href="/" class="btn btn-outline-light">Torna alla Home</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h1>Gestione Caselli</h1>
+    <!-- Contenitore per i pulsanti admin come richiesto dalla tua logica -->
+    <div id="adminButtons" style="display: none;">
+      <button id="aggiungiCaselloButton" class="btn btn-primary">Aggiungi Casello</button>
+    </div>
+  </div>
+
+  <!-- Sezione per il form, inizialmente nascosta, come richiesto dalla tua logica -->
+  <section id="aggiungiCaselloForm" style="display:none;" class="card mb-4">
+    <div class="card-body">
+      <h3 class="card-title">Aggiungi un nuovo casello</h3>
+      <form id="caselloForm">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome casello:</label>
+          <input type="text" id="nome" name="nome" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="regione" class="form-label">Regione:</label>
+          <input type="text" id="regione" name="regione" class="form-control" required>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="lat" class="form-label">Latitudine:</label>
+            <input type="text" name="latitudine" id="lat" class="form-control" readonly required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lng" class="form-label">Longitudine:</label>
+            <input type="text" name="longitudine" id="lng" class="form-control" readonly required>
+          </div>
+        </div>
+        <div id="map" style="height: 300px; margin: 10px 0; border-radius: 5px;"></div>
+        <button type="submit" class="btn btn-success">Invia</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="card">
+    <div class="card-body">
+      <div class="row mb-3 g-2">
+        <div class="col-md-5">
+          <input type="text" id="searchNomeInput" class="form-control" placeholder="Cerca per nome casello...">
+        </div>
+        <div class="col-md-5">
+          <input type="text" id="searchRegioneInput" class="form-control" placeholder="Cerca per regione...">
+        </div>
+        <div class="col-md-2">
+          <button id="clearCaselliSearchButton" class="btn btn-secondary w-100">Ripulisci</button>
+        </div>
+      </div>
+      <table class="table table-striped table-hover" id="caselliTable">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Regione</th>
+          <th>Latitudine</th>
+          <th>Longitudine</th>
+          <!-- Intestazione per le azioni aggiunta da JS se admin -->
+        </tr>
+        </thead>
+        <tbody id="caselliTableBody">
+        <!-- Contenuto generato da JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<!-- Modale per la modifica -->
+<div class="modal fade" id="modificaCaselloModal" tabindex="-1" aria-labelledby="modificaCaselloModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modificaCaselloModalLabel">Modifica Casello</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="modificaCaselloForm">
+
+          <input type="hidden" id="modifica-id-originale" name="id_originale">
+
+          <div class="mb-3">
+            <label for="modifica-nome" class="form-label">Nome casello:</label>
+            <input type="text" id="modifica-nome" name="nome" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="modifica-regione" class="form-label">Regione:</label>
+            <input type="text" id="modifica-regione" name="regione" class="form-control" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="modifica-lat" class="form-label">Latitudine:</label>
+              <input type="text" name="latitudine" id="modifica-lat" class="form-control" readonly required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="modifica-lng" class="form-label">Longitudine:</label>
+              <input type="text" name="longitudine" id="modifica-lng" class="form-control" readonly required>
+            </div>
+          </div>
+
+          <div id="map-modifica" style="height: 300px; margin: 10px 0; border-radius: 5px;"></div>
+
+          <button type="submit" class="btn btn-primary">Salva Modifiche</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPT (L'ORDINE È FONDAMENTALE) -->
+<script src="http://localhost:8080/auth/js/keycloak.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="auth.js"></script>
+<script src="caselli.js"></script>
+</body>
+</html>

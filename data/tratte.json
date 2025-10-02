@@ -1,0 +1,50 @@
+[
+  {
+    "id": "55f135c8-3b43-4b28-b419-b825ba6a5453",
+    "nomeCaselloIngresso": "MI_OVEST",
+    "nomeCaselloUscita": "MI_EST",
+    "distanza": 9.793745658434235,
+    "pedaggio": 3.427810980451982,
+    "utilizzo": 11
+  },
+  {
+    "id": "1e491f74-7b07-49bb-9ba7-66070cb9eea7",
+    "nomeCaselloIngresso": "MI_OVEST",
+    "nomeCaselloUscita": "NA_NORD",
+    "distanza": 662.1116982628407,
+    "pedaggio": 231.73909439199423,
+    "utilizzo": 3
+  },
+  {
+    "id": "3540ff9d-c9c6-44cf-9935-9eeb9c20ed4c",
+    "nomeCaselloIngresso": "MI_EST",
+    "nomeCaselloUscita": "MI_OVEST",
+    "distanza": 9.793745658434235,
+    "pedaggio": 3.5,
+    "utilizzo": 12
+  },
+  {
+    "id": "4710cacb-da39-478d-afb6-e72d5bfce7f1",
+    "nomeCaselloIngresso": "MI_EST",
+    "nomeCaselloUscita": "NA_NORD",
+    "distanza": 654.579541799557,
+    "pedaggio": 229.10283962984494,
+    "utilizzo": 11
+  },
+  {
+    "id": "73c829e1-5440-4117-929b-d8d9c7c1ac8f",
+    "nomeCaselloIngresso": "NA_NORD",
+    "nomeCaselloUscita": "MI_OVEST",
+    "distanza": 662.1116982628407,
+    "pedaggio": 231.73909439199423,
+    "utilizzo": 4
+  },
+  {
+    "id": "2db3d316-fce4-449b-b6b6-c354a1574838",
+    "nomeCaselloIngresso": "NA_NORD",
+    "nomeCaselloUscita": "MI_EST",
+    "distanza": 654.579541799557,
+    "pedaggio": 229.10283962984494,
+    "utilizzo": 12
+  }
+]

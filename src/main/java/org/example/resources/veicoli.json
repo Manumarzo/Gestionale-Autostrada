@@ -1,0 +1,29 @@
+[
+  {
+    "targa": "BP931JQ",
+    "id_telepass": "93954124-b21d-4481-9fd7-8b0a8f3e45b3",
+    "hasTelepass": true
+  },
+  {
+    "targa": "DS627HZ",
+    "hasTelepass": false
+  },
+  {
+    "targa": "IO686CK",
+    "id_telepass": "4b8ad9fc-a8c6-47f1-bb52-8f64a850ee18",
+    "hasTelepass": true
+  },
+  {
+    "targa": "XR603XF",
+    "hasTelepass": false
+  },
+  {
+    "targa": "XI741KX",
+    "id_telepass": "82554c9c-2d55-40ef-b669-39c8e01df2c0",
+    "hasTelepass": true
+  },
+  {
+    "targa": "KS279RS",
+    "hasTelepass": false
+  }
+]

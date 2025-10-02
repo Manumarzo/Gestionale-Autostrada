@@ -1,0 +1,198 @@
+[
+  {
+    "id": "85523562-034a-4235-8dc1-1ba56b098878",
+    "telepassId": "76d03c99-469f-4841-bbd2-9a6f5deada9f",
+    "viaggioId": "4fdc7158-d391-4014-8639-039e601d2414",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "c2d991c0-a6d7-4f30-91c3-c5516959d755",
+    "telepassId": "703c448b-edbe-4ce5-80ca-6ff42e46f0b7",
+    "viaggioId": "d105000c-6acf-4b3c-9ed6-acb3452f439d",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "85afc13d-714b-4218-83c0-c2dafecdbe1b",
+    "telepassId": "4e77b56b-a697-463b-9a23-f0601f21f6a9",
+    "viaggioId": "9beba791-553a-4590-a3ac-72ee75cab1ea",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "04076899-75e1-4a02-9cdb-9fb9de0a7abb",
+    "telepassId": "be6c11e6-a1bb-4204-befd-aa8659d1ec88",
+    "viaggioId": "d1e30ba1-763d-47ab-a69d-26553e12337e",
+    "importo": 231.73909439199423,
+    "pagato": false
+  },
+  {
+    "id": "b2d56dde-24e6-458f-ad85-d5da6a43a033",
+    "telepassId": "3bd2d110-17a3-42f4-bbfd-6d7ee463e842",
+    "viaggioId": "afa1bfa6-7131-4ced-8480-e0523a8fba93",
+    "importo": 3.5,
+    "pagato": true
+  },
+  {
+    "id": "2b92c53f-8965-4653-907b-c5c4af6fef19",
+    "telepassId": "1fd598ae-4543-47f3-b2d5-6c7a1bb6ae12",
+    "viaggioId": "cc7f2d06-d108-4d38-bd34-a6668c359e52",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "16d4df00-b0a6-4df6-b8ea-32977217fff7",
+    "telepassId": "f9755f5b-fcf1-4c0c-b3c7-d6054a101d65",
+    "viaggioId": "872cb557-57f8-4f9c-8c14-806b292361d3",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "a78308a9-3499-4891-8d82-1e221fb794c1",
+    "telepassId": "8785a745-ea6f-4bca-b1e1-8be2463ccbd0",
+    "viaggioId": "3d56e42d-b378-42ce-9ca2-cd905a2f4118",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "4a452aea-e219-442a-881a-72d1372771e5",
+    "telepassId": "2919a894-7b96-460d-9523-33f0ab229a2d",
+    "viaggioId": "300065d1-5d31-4e9b-ad35-a06098584cd3",
+    "importo": 3.5,
+    "pagato": false
+  },
+  {
+    "id": "a9bca86d-a7b5-4ded-a163-36dfad6d72de",
+    "telepassId": "651e5ad9-a32c-4721-a573-9a4315ff5d66",
+    "viaggioId": "8707ae0d-bafc-41dd-ac4a-5c173dcaa2d0",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "83403c76-fed1-4ab5-8321-1fbb5a927159",
+    "telepassId": "660ec2f9-b7a7-4363-bc4e-7ec08dd6d2b2",
+    "viaggioId": "832f8285-6a62-4075-b946-b311c852cee0",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "177fc529-b08f-49bf-b4b2-7ae0ca3134aa",
+    "telepassId": "57c02dda-3609-4cde-91f9-649980493c32",
+    "viaggioId": "bcbe5384-4b48-47fd-8843-8d0265243025",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "3198c39a-4f33-48fd-867f-1cc33af6a1f7",
+    "telepassId": "19bbf6c9-ec67-42a3-b3b7-0e23cd343eee",
+    "viaggioId": "b293505e-1ee3-4285-9c1f-764bdbf7d073",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "8db79ff4-e40a-4fcc-9c30-37faaf30f71d",
+    "telepassId": "ac21ecef-1a25-4474-9e73-6d8db7cd689f",
+    "viaggioId": "9e1d3698-f0e9-4e5e-841c-5bbd4c96805d",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "46e72611-c9a9-4b5c-8252-1f1243eb314b",
+    "telepassId": "769f922a-53b3-4bde-b95d-bbf33afe2408",
+    "viaggioId": "5f9489be-4323-47ef-a351-1c85eb43083b",
+    "importo": 3.5,
+    "pagato": false
+  },
+  {
+    "id": "3cbd01f1-9f85-475e-8f2a-ed4d88ebfd06",
+    "telepassId": "6389220d-7ba2-4363-9a06-c7569d65745f",
+    "viaggioId": "5917cf8c-eb10-4810-b1b8-2d51b49dcc3b",
+    "importo": 229.10283962984494,
+    "pagato": true
+  },
+  {
+    "id": "85401ce8-de97-4910-93d7-1e6544163245",
+    "telepassId": "f172f61f-b6c3-4a4d-84d5-96fe3f10ff5a",
+    "viaggioId": "73d70465-7c61-4385-b911-ba159649253b",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "8de52255-7d67-410d-893e-a252de09f0a1",
+    "telepassId": "6d4fff23-f683-43cb-9446-725e1ffc46ad",
+    "viaggioId": "b695fba7-cfc3-46a9-9384-0b9d08f40d20",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "4258bceb-ed83-416b-849f-e6cb0e4ce6e4",
+    "telepassId": "9bba0a35-c297-49fa-9d1a-849bac822175",
+    "viaggioId": "b377e91f-7537-4f82-b25e-ecc0d5e369d0",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "0cc03a7b-59d6-404f-9b2b-50939343953b",
+    "telepassId": "be08098b-468c-41e8-80a4-176461899307",
+    "viaggioId": "e4aafd74-bbad-4552-96cc-0b6a96250b80",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "60f20ecb-8f3f-44fc-82b3-85464fe0df7f",
+    "telepassId": "69016bfc-a351-4dd3-8e13-b0dfc91702f0",
+    "viaggioId": "389969eb-3d44-4352-8ec1-b9f50d200b10",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "b1fab9b0-5dc1-4bae-b52f-8297e3d408f7",
+    "telepassId": "7283a0de-0cf3-4d13-b7f1-1e8b18c9078f",
+    "viaggioId": "390d276e-c28b-4ccd-a21d-2a1e79dd71e1",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "db77bcb1-1c42-42bc-8a82-e85f8e67a8bd",
+    "telepassId": "a7fdad7b-d01e-48c2-8379-45c24c3e1538",
+    "viaggioId": "66cc750a-3d5e-40c9-acdc-90a7512cc399",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "069387df-4385-4035-9004-73749f69681c",
+    "telepassId": "22dafb86-26b4-4e8f-81a4-4f1bfc13acb8",
+    "viaggioId": "9ba68bcc-4213-41f6-a717-1c76a320733a",
+    "importo": 231.73909439199423,
+    "pagato": false
+  },
+  {
+    "id": "0316b638-dfab-46e7-bdd2-df1187be05a3",
+    "telepassId": "28cbffbc-9397-40a6-b3c3-03da21aa8082",
+    "viaggioId": "9e6c8b2f-026b-4c29-bc8b-8e21ed96ab60",
+    "importo": 229.10283962984494,
+    "pagato": false
+  },
+  {
+    "id": "30cdaf4f-75a4-477d-8006-d2b7d2236f67",
+    "telepassId": "93954124-b21d-4481-9fd7-8b0a8f3e45b3",
+    "viaggioId": "58b94e71-55c1-452f-87f0-6bfd432585b0",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "eb7a918e-58d6-42fa-bd88-b9eddb9209ba",
+    "telepassId": "4b8ad9fc-a8c6-47f1-bb52-8f64a850ee18",
+    "viaggioId": "12cf0198-c3e3-48ee-8c1d-f6af9c7a4e9f",
+    "importo": 3.427810980451982,
+    "pagato": false
+  },
+  {
+    "id": "5df18408-2fbe-4217-8395-aa2ab3e7d110",
+    "telepassId": "82554c9c-2d55-40ef-b669-39c8e01df2c0",
+    "viaggioId": "dc1a25d5-bd0d-45c3-9ee3-609e6665079f",
+    "importo": 229.10283962984494,
+    "pagato": false
+  }
+]
